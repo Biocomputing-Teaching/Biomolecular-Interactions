@@ -82,4 +82,4 @@ The course will be divided into theoretical, practical, and methodological cases
 
 ### Practical Sessions
 
-[P01 - Working with sequence data](https://github.com/Biocomputing-Teaching/Biomolecular-Interactions/tree/master/practical/P01)
+[P01 - Practical Session 01](https://github.com/Biocomputing-Teaching/Biomolecular-Interactions/tree/master/practical/P01)
