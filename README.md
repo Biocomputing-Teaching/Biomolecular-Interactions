@@ -12,7 +12,7 @@ The subject builds on concepts coming from physical chemistry, molecular biology
 
 ### Preparing the tools
 
-Before we start with the course's practical session, you must have everything set up and ready to work. Our primary language will be Python, a general programming language that is more ubiquitous by every day. Many platforms can host a python interpreter, but since this is not the only application we will use in this course, we will need a shared operating system among all the course attendants. For this, we choose Linux since most of the scientific applications are developed for it.
+Before we start with the course's practical session, you must have everything set up and ready to work. Our primary language will be Python, a general programming language that is more ubiquitous by every day. Many platforms can host a Python interpreter, but since this is not the only application we will use in this course, we will need a shared operating system among all the course attendants. For this, we choose Linux since most of the scientific applications are developed for it.
 
 Linux and macOS are very alike since both have similar architectures. Many Linux programs are also available for macOS users. So, you can use the terminal application in your MacOS to follow the course for most purposes.
 
