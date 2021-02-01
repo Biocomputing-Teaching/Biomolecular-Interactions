@@ -32,6 +32,10 @@ If the Hyper-V option is not available to your Windows system (it is not availab
 
 [How to set up a Linux virtual machine for Windows with VirtualBox](https://itsfoss.com/install-linux-in-virtualbox/)
 
+For those one having problems with Virtualization, please check this link:
+
+[How to enable Virtualization in windows](https://support.bluestacks.com/hc/en-us/articles/115003174386-How-to-enable-Virtualization-VT-on-Windows-10-for-BlueStacks-4)
+
 ### Installing the required programs
 
 First, we will need to install the [Conda](https://docs.conda.io/en/latest/) package manager:
