@@ -91,6 +91,9 @@ The course will be divided into theoretical, practical, and methodological cases
 
 [T01 - Theoretical session 01](https://github.com/Biocomputing-Teaching/Biomolecular-Interactions/tree/master/theoretical/T01)
 
+[T02 - Theoretical session 02](https://github.com/Biocomputing-Teaching/Biomolecular-Interactions/tree/master/theoretical/T02)
+
+
 ### Practical Sessions
 
 [P01 - Practical Session 01](https://github.com/Biocomputing-Teaching/Biomolecular-Interactions/tree/master/practical/P01)
