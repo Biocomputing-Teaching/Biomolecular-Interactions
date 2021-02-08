@@ -8,11 +8,11 @@ The repository contains the material created or adapted from other (referred) so
 
 ## Getting started
 
-The subject builds on concepts coming from physical chemistry, molecular biology, and biochemistry, and the approach we take is dual: we work with experimental information, trying to understand how it is generated and stored, as well as with computers to obtain information from the data using bioinformatics and computational biochemistry tools. As a necessary step thus, you'll need to learn how to use computers to get insight from biological data. By "use computers," we mean to grasp the full potential that computers can offer to assist you in gathering, creating, and analyzing data. These tasks are achievable at their best by learning to write your own programs, so they will suit the specific needs to answer your scientific questions. We will learn how to make small scripts along with the content of the course. However, most programming learning will be part of your effort; programming is a language, we can show you how it works, but it is up to you how you learn it, speak it, and put it to good use.
+The subject builds on concepts coming from physical chemistry, molecular biology, and biochemistry, and the approach we take is dual: we work with experimental information, trying to understand how it is generated and stored, as well as with computers to obtain information from the data using bioinformatics and computational biochemistry tools. As a necessary step thus, you'll need to learn how to use computers to get insight from biological data. By "use computers," we mean to grasp the full potential that computers can offer to assist you in gathering, creating, and analyzing data. These tasks are achievable at their best by learning to write your own programs, so they will suit the specific needs to answer your scientific questions. We will learn how to make small scripts along with the content of the course. However, most programming learning will be part of your effort; programming is a language, we can show you how it works, but it is up to you how you learn it, "speak" it, and put it to good use.
 
 ### Preparing the tools
 
-Before we start with the course's practical session, you must have everything set up and ready to work. Our primary language will be Python, a general programming language that is more ubiquitous by every day. Many platforms can host a python interpreter, but since this is not the only application we will use in this course, we will need a shared operating system among all the course attendants. For this, we choose Linux since most of the scientific applications are developed for it.
+Before we start with the course's practical session, you must have everything set up and ready to work. Our primary language will be Python, a general programming language that is more ubiquitous by every day. Many platforms can host a Python interpreter, but since this is not the only application we will use in this course, we will need a shared operating system among all the course attendants. For this, we choose Linux since most of the scientific applications are developed for it.
 
 Linux and macOS are very alike since both have similar architectures. Many Linux programs are also available for macOS users. So, you can use the terminal application in your MacOS to follow the course for most purposes.
 
@@ -31,6 +31,10 @@ Finally, if you don't want a second operative system on your computer, you can s
 If the Hyper-V option is not available to your Windows system (it is not available for Windows Home edition), then you can try with:
 
 [How to set up a Linux virtual machine for Windows with VirtualBox](https://itsfoss.com/install-linux-in-virtualbox/)
+
+For those one having problems with Virtualization, please check this link:
+
+[How to enable Virtualization in windows](https://support.bluestacks.com/hc/en-us/articles/115003174386-How-to-enable-Virtualization-VT-on-Windows-10-for-BlueStacks-4)
 
 ### Installing the required programs
 
@@ -56,6 +60,9 @@ conda install biopython
 conda install -c anaconda git
 ```
 
+If you are using Mac OS X you may be interested in installing [GitHub Desktop](https://desktop.github.com) aswell.
+
+
 That's it for now. Although, during the course, we will install and create other programming packages along we need them.
 
 ### Getting yourself ready
@@ -72,7 +79,7 @@ Importantly, for Python, we ask you to read and familiarize yourself with at lea
 
 [Python tutorial](https://www.learnpython.org/en/)
 
-The deeper you go, the better programmer you'll become! A good programmer will go swiftly along "Introduction to Bioinformatics," not to mention that later you will be able to apply all this knowledge when delving into other professional problems.
+The deeper you go, the better programmer you'll become! A good programmer will go swiftly along "Introduction to Bioinformatics," not to mention that later you will be able to apply all this knowledge when delving into other professional problems. You can also find material developed in-house [here](https://github.com/Biocomputing-Teaching/Learning-Python-for-Biocomputing).
 
 IMPORTANT: if you want to clone this repository on your computer (not needed, as you can download individual files), you can install [GitHub Desktop](https://desktop.github.com) to make it visually easy.
 
