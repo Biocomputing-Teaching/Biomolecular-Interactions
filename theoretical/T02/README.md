@@ -2,8 +2,8 @@
 
 ## Requirements
 
-* Setting up your computer with a Linux or macOS operating system (see [course repository](https://github.com/Biocomputing-Teaching/Introduction-to-Bioinformatics))
-* Install Conda and Jupyter Lab (see [course repository](https://github.com/Biocomputing-Teaching/Introduction-to-Bioinformatics))
+* Setting up your computer with a Linux or macOS operating system (see [course repository](https://github.com/Biocomputing-Teaching/Biomolecular-Interactions))
+* Install Conda and Jupyter Lab (see [course repository](https://github.com/Biocomputing-Teaching/Biomolecular-Interactions))
 * Complete the "Learn the Basics" entries in the [Python Tutorial](https://www.learnpython.org/en/)
 
 ## To begin
