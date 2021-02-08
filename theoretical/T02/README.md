@@ -1,4 +1,4 @@
-# Practical Session 01
+# Theoretical Session 02
 
 ## Requirements
 
