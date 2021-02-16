@@ -2,26 +2,26 @@
 
 ### Requirements
 
-Setting up your computer with a Linux or macOS operating system (see course repository)
+* Setting up your computer with a Linux or macOS operating system (see course repository)
 
-Install Conda and Jupyter Lab (see course repository)
+* Install Conda and Jupyter Lab (see course repository)
 
-Complete the "Learn the Basics" entries in the Python Tutorial
+* Complete the "Learn the Basics" entries in the Python Tutorial
 
-Install the scrapy library. Open up a terminal and write:
+* Install the scrapy library. Open up a terminal and write:
 
 ```
 conda install -c anaconda scrapy
 ```
 
-Install the Google Chrome navigator if you have not already installed it:
+* Install the Google Chrome navigator if you have not already installed it:
 
 [Get Chrome](https://www.google.com/chrome/)
 
 If you have doubts please read the following for Ubuntu:
 [How to install Chrome on Ubuntu](https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-20-04/)
 
-We need Chrome since we will make use of the selector gadget. Please add it to your extensions:
+* We need Chrome since we will make use of the selector gadget. Please add it to your Chrome extensions:
 
 [Selector gadget for Chrome](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb)
 
