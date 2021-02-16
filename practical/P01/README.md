@@ -18,7 +18,7 @@ conda install -c anaconda scrapy
 
 [Get Chrome](https://www.google.com/chrome/)
 
-If you have doubts please read the following for Ubuntu:
+If you have doubts, please read the following for Ubuntu:
 
 [How to install Chrome on Ubuntu](https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-20-04/)
 
@@ -26,38 +26,56 @@ If you have doubts please read the following for Ubuntu:
 
 [Selector gadget for Chrome](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb)
 
-* We will also need a text editor, I recommend getting Github's ATOM for editing code:
+* We will also need a text editor; I recommend getting Github's ATOM for editing code:
 
 [Get ATOM](https://atom.io/)
 
+Save the .deb file if you are using Ubuntu, then go to the file location and write:
+
+```
+sudo dpkg -i atom-amd64.deb
+```
+
 ### Introduction
 
-In this tutorial we will use a pre-setup library for getting data automatically
+In this tutorial, we will use a pre-setup library for getting data automatically
 from any web-based database. We will employ the scrapy library for navigating automatically
-through any web site and we will use a powerful CSS selection method. Don't worry now about
-how CSS works we will use a tool to help us out to get the rigth selection. However, it is a good
-idea to get familiar with some basics on how a web site is structured, so please review
+through any website, and we will use a powerful CSS selection method. Don't worry now about how CSS works; we will use a tool to help us get the right selection. However, it is a good
+idea to get familiar with some basics of how a web site is structured, so please review
 the introduction page of the following link:
 
 [What is HTML?](https://www.w3schools.com/html/html_intro.asp)
 
-To start we clone the course repository into a directory. Open a terminal, navigate to the folder
+To start, we clone the course repository into a directory. Open a terminal, navigate to the folder
 you would like to download the repository and then clone the repository:
 
 ```
 git clone https://github.com/Biocomputing-Teaching/Biomolecular-Interactions.git
 ```
 
-If you already had the repository and want to just updated it, go to the repository's folder and execute:
+If you already had the repository and just want to update it, go to the repository's folder and execute:
 
 ```
 git pull
 ```
 
-This should update the repository at its final version.
+This command should update the repository at its final version.
 
 Now we go to the Practical session 01's folder:
 
 ```
-cd Biomolecular-Interactions/practical/P01
+cd Biomolecular-Interactions/practical/P01/
+```
+
+We open the atom editor with:
+
+```
+atom .
+```
+
+After the editor has opened, navigate to the notebook location and open the Jupyter Notebook for the session:
+
+```
+cd notebook
+jupyter-notebook scrapeAnURL.ipynb
 ```
