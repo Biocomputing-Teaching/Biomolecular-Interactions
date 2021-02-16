@@ -34,4 +34,4 @@ how CSS works we will use a tool to help us out to get the rigth selection. Howe
 idea to get familiar with some basics on how a web site is structured, so please review
 the introduction page of the following link:
 
-[What is HTML?](w3schools.com/html/html_intro.asp)
+[What is HTML?](https://www.w3schools.com/html/html_intro.asp)
