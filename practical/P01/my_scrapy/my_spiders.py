@@ -42,7 +42,12 @@ class myFirstSpider(scrapy.Spider):
         ## Here we start scrapying things from the url ##
         response #  Remember the response object contains all the HTML data from the Web site.
 
-     def closed(self, spider):
+        #      \    /\         #
+        #       )  ( ')        # Here is the cat!
+        #       (  /  )        #
+        #        \(__)|        #
+
+    def closed(self, spider):
         """
         This functions is executed when the spider has done parsing. It will write the
         "self.my_dictionary" content into a JSON formatted file with the name stored at
