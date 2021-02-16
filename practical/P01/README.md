@@ -19,6 +19,7 @@ conda install -c anaconda scrapy
 [Get Chrome](https://www.google.com/chrome/)
 
 If you have doubts please read the following for Ubuntu:
+
 [How to install Chrome on Ubuntu](https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-20-04/)
 
 * We need Chrome since we will make use of the selector gadget. Please add it to your Chrome extensions:
