@@ -97,3 +97,7 @@ The course will be divided into theoretical, practical, and methodological cases
 ### Practical Sessions
 
 [P01 - Practical Session 01](https://github.com/Biocomputing-Teaching/Biomolecular-Interactions/tree/master/practical/P01)
+
+The assignment's instructions for practical session 01 can be found in the following notebook:
+
+[P01 - Assignment instructions](https://github.com/Biocomputing-Teaching/Biomolecular-Interactions/blob/master/practical/P01/assignment/assignment_instructions.ipynb)
