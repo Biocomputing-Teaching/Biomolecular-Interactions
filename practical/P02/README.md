@@ -8,6 +8,10 @@
 
 * Complete the "Learn the Basics" entries in the Python Tutorial
 
+* Install Chimera for molecular visualization
+
+[Download Chimera](https://www.cgl.ucsf.edu/chimera/download.html)
+
 * Install the MDTraj Python library
 
 conda install -c conda-forge mdtraj
