@@ -1,4 +1,4 @@
-# Protein-protein Docking with pyDock
+# Protein-protein Docking with LightDock
 
 ## Introduction
 
@@ -66,9 +66,11 @@ pwd
 
 We must copy the output from the previous command and replace the string "/path/to/lightdock" with it in the first of the following lines:
 
+```
 export LIGHTDOCK_HOME="/path/to/lightdock"
 export PATH=$PATH:$LIGHTDOCK_HOME/bin
 export PYTHONPATH=$PYTHONPATH:$LIGHTDOCK_HOME
+```
 
 After replacing it, we paste these lines at the end of the .bashrc file. To edit that file, we execute:
 
