@@ -1,3 +1,6 @@
+Adapted from [Stefano Moro](http://mms.dsfarm.unipd.it/files/Lezioni/Biomodelling/VirtualLab/VirtualLab_Tutorial_Biotech.pdf); Molecular Modeling Section (MMS),
+Department of Pharmaceutical and Pharmacological Sciences, University of Padova
+
 # Visualizing Biomolecular Interactions with Chimera
 
 In this session we will make use of some tools in Chimera that can be useful to visualize biomolecular interactions.
@@ -57,87 +60,74 @@ We will have a look at H-Bonds, contacts and clashes:
   * `If endpoint atom hidden, show endpoint residue`: residues involved in H-bonds will be drawn in the structure
   * `Write information to file`: a list of the interacting residue will be saved
 
-  Click on `OK`, choose the directory and the name of the file to save and click on `Save`.
-    These operations will show the amino acids involved in intermolecular hydrogen bonds and will write a file with a list of residues involved in these interactions. For each couple of residues H-bond donor, acceptor, hydrogen atom, donor - - acceptor distance and donor-H - - acceptor distance are reported in the file.
-    
-CONT ACTS:
-In this section we will identify all kind of interactions (polar and non-polar, favorable and unfavorable (clashes)) between the two proteins.
-• Select both protein chains clicking on: Select → Structure → protein
-• Click on:
-Tools → Surface/Binding Analysis → Find Clashes/Contacts
-• In the “Find Clashes/Contacts”:
-! click on Designate and flag themselves : in this way only contacts between the
-two proteins will be checked
-! click on contact in Default clash/contact criteria , in order to choose the contact
-instead of clash option
-! flag the Color option
-! flag the Draw pseudobonds of color option
-! flag If endpoint atom hidden, show endpoint residue , to draw residues involved
-in contacts
-! Write information to file: a list of the interacting residue will be saved
+  Click on `OK`, choose the directory and the name of the file to save and click on `Save`. These operations will show the amino acids involved in intermolecular hydrogen bonds and will write a file with a list of residues involved in these interactions. For each couple of residues H-bond donor, acceptor, hydrogen atom, donor - - acceptor distance and donor-H - - acceptor distance are reported in the file.
 
-At the end amino acids involved in intermolecular interactions of every kind (for example ionic locks have a key role in protein-protein interactions) will appear on the structure.
-     CLASHES:
-In this section we will identify unfavorable intermolecular interactions where atoms are too close together, that is clashes.
-• If they are not already selected, select both protein chains clicking on: Select → Structure → protein
-• Click on:
-Tools → Surface/Binding Analysis → Find Clashes/Contacts
-• In the “Find Clashes/Contacts”:
-! click on Designate and flag themselves : in this way only contacts between the
-two proteins will be checked
-! click on clashes in Default clash/contact criteria , in order to choose the contact
-instead of clash option
-! flag the Color option, and use a different color from the one used for atoms
-involved in contacts
-! flag the Draw pseudobonds of color option, and use a different color from the
-one used for contacts
-! flag If endpoint atom hidden, show endpoint residue , to draw residues involved
-in clashes
-• De-select the proteins clicking on
-Select → Clear Selection
-At the end amino acids involved in clashes will appear on the structure.
-o 4.4 Surface Analysis
+* **CONTACTS**: we will identify all kind of interactions (polar and non-polar, favorable and unfavorable (clashes)) between the protein and the ligand. Select the complete structure clicking on: `Select → Structure → protein`. Click on `Tools → Surface/Binding Analysis → Find Clashes/Contacts`. In the “Find Clashes/Contacts”:
+  * click on `Designate` and flag `themselves`: in this way only contacts between the two proteins will be checked
+  * click on `contact` in `Default clash/contact criteria`, in order to choose the contact instead of clash option
+  * flag the `Color` option
+  * flag the `Draw pseudobonds of color` option
+  * flag `If endpoint atom hidden, show endpoint residue`, to draw residues involved in contacts
+  * `Write information to file`: a list of the interacting residue will be saved
+  At the end amino acids involved in intermolecular interactions of every kind (for example ionic locks have a key role in protein-protein interactions) will appear on the structure.
+
+* **CLASHES**: we will identify unfavorable intermolecular interactions where atoms are too close together, that is clashes.
+  * If they are not already selected, select both protein chains clicking on: `Select → Structure → protein`
+  * Click on `Tools → Surface/Binding Analysis → Find Clashes/Contacts`. In the “Find Clashes/Contacts”:
+    * click on `Designate` and flag `themselves`: in this way only contacts between the two proteins will be checked
+    * click on `clashes` in `Default clash/contact criteria`, in order to choose the contact instead of clash option
+    * flag the `Color` option, and use a different color from the one used for atoms involved in contacts
+    * flag the `Draw pseudobonds of color` option, and use a different color from the one used for contacts
+    * flag `If endpoint atom hidden, show endpoint residue`, to draw residues involved in clashes
+  * De-select the proteins clicking on `Select → Clear Selection`.
+  At the end amino acids involved in clashes will appear on the structure.
+
+
+## Surface Analysis
 
 Protein-protein recognition depends on the complementarity between the surface of the two proteins, that is a complementarity in shape and in electrostatic and hydrophobic interactions.
 Therefore it's necessary to calculate the surface of proteins in the complex.
-SURFACE REPRESENTATION:
-It's necessary to save two separate PDB for the two proteins before generating the molecular surface.
-• Select chain A clicking on: Select → Chain → A
-• Delete Chain A clicking on: Actions → Atoms/Bonds → delete
-• Save the Chain B clicking on:
-File → Save PDB → choose the directory and the name of the file to save → Save
-• Close the session clicking on: File → Close Session
-• Open your original PDB and repeat the previous points deleting chain B and saving chain A
-• Open the PDB of the chain B. Now you have loaded the structure of both chain A and chain B.
-• Generate the molecular surface clicking on: Actions → Surface → show
-ELECTROSTATIC POTENTIAL
+
+### SURFACE REPRESENTATION:
+
+In case you are studying the chain interface within a protein complex, it is necessary to save two separate PDB for the two proteins before generating the molecular surface.
+
+* Select chain A clicking on: `Select → Chain → A`
+* Delete Chain A clicking on: `Actions → Atoms/Bonds → delete`
+* Save the Chain B clicking on: `File → Save PDB →` choose the directory and the name of the file to save `→ Save`
+* Close the session clicking on: `File → Close Session`
+* Open your original PDB and repeat the previous points deleting chain B and saving chain A
+* Open the PDB of the chain B. Now you have loaded the structure of both chain A and chain B.
+* Generate the molecular surface clicking on: `Actions → Surface → show`  
+
+### ELECTROSTATIC POTENTIAL
+
 In this section we will color the surface according to the Coulombic potential.
-• Click on:
-Tools → Surface/Binding Analysis → Coulombic Surface Coloring
-• Select both the surfaces in the “Coulombic Surface Coloring” window (left
+* Click on: `Tools → Surface/Binding Analysis → Coulombic Surface Coloring`
+* Select both the surfaces in the “Coulombic Surface Coloring” window (left
 button+Ctrl)
-• Use the default options and click on OK
+* Use the default options and click on `OK`
 As a result the surfaces will be colored according to the Coulombic potential, going from red (negative potential) to blue (positive potential).
-HYDROPHOBIC POTENTIAL
+
+### HYDROPHOBIC POTENTIAL
+
 In this section we will generate a hydrophobicity surface coloring the molecular surface by amino acid hydrophobicity.
-• Click on:
-Tools → Depiction → Render by attribute
-• In the window “Render/Select by attribute”:
-! Select both chains (left button + Ctrl) and choose residues in the Attributes of
-section
-! Choose kdHydrophobicity in the Attribute: section
-! Choose Cyan-Maroon in the Palette: section
-! Use the remaining default options and click on OK
+* Click on: `Tools → Depiction → Render by attribute`
+* In the window “Render/Select by attribute”:
+  * Select both chains (left button + Ctrl) and choose `residues` in the `Attributes of` section
+  * Choose `kdHydrophobicity` in the `Attribute:`` section
+  * Choose Cyan-Maroon in the `Palette:` section
+  * Use the remaining default options and click on `OK`
 As a result the surfaces will be colored according to amino acid hydrophobicity: more hydrophobic residues (larger positive values of hydrophobicity) are colored in maroon, while the hydrophilic residues (negative values of hydrophobicity) are colored in cyan.
 
-STERIC COMPLEMETARITY
+## STERIC COMPLEMETARITY
+
 To observe shape complementarity, it's useful to move only one protein leaving the other fixed, in this way it will be possible to check if a pocket in one structure fits with a protrusion in the partner.
 In the same way we can check if positive portions match negative ones, if hydrophobic portions match hydrophobic ones and if hydrophilic portions match hydrophilic ones.
-• Click on:
-! Favorites → Model Panel
-! Make one structure inactive by de-flagging the column A box in the line
-corresponding to that structure
-! move the structure using the central mouse button (avoid to rotate the structure,
+Click on: `Favorites → Model Panel`
+* Make one structure inactive by de-flagging the column A box in the line corresponding to that structure
+* move the structure using the central mouse button (avoid to rotate the structure,
 so don't use the left mouse button)
-5. Conclusions
+
+# Conclusions
 Thanks to the molecular surface and interaction analysis it's possible to understand some of the key features for protein-protein recognition, giving interesting hints about what happens in response to single point mutations.
