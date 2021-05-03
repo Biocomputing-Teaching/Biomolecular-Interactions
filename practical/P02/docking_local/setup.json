@@ -1,0 +1,17 @@
+{
+    "anm_lig": 10,
+    "anm_rec": 10,
+    "anm_seed": 324324,
+    "ftdock_file": null,
+    "glowworms": 200,
+    "ligand_pdb": "../input/1OAP_B.pdb",
+    "membrane": false,
+    "noh": false,
+    "noxt": true,
+    "receptor_pdb": "../input/1C5K_A.pdb",
+    "restraints": null,
+    "starting_points_seed": 324324,
+    "swarms": 50,
+    "use_anm": false,
+    "verbose_parser": false
+}
