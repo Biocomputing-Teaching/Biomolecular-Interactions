@@ -7,4 +7,4 @@ We will have a look at the crystal structure of a tethered dimer of hiv-1 protea
 
 Open Chimera. Get the PDB file by directly fetching it from the Protein Data Bank by selecting `File -> Fetch by ID`. Alternatively (recommended this time) go to the [PDB site](https://www.rcsb.org/structure/1HVC) and download the PDB file. After that, you can use your preferred text editor to explore the contents of the file. Check in particular the details of the different REMARK entries.
 
-
+this
