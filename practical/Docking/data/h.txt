@@ -1,0 +1,500 @@
+  214  ls -ltrsa
+  215  ls -ltrsa
+  216  conda install goatools
+  217  conda install -c bioconda goatools 
+  218  ls
+  219  ls -ltrsa
+  220  cat results.txt 
+  221  cat results.txt 
+  222  cat results.txt 
+  223  cat results.txt 
+  224  cat results.txt 
+  225  cat results.txt 
+  226  ls -ltrsa
+  227  conda install -c bioconda goatools 
+  228  cat results.txt 
+  229  ls -lrtrsa
+  230  ls -lrtrsa
+  231  ls -lrtrsa
+  232  rm -rf results.txt 
+  233  cd
+  234  ls
+  235  du -sk *
+  236  du -sh *
+  237  df -h
+  238  df -h
+  239  conda install -c bioconda goatools 
+  240  cd Downloads/
+  241  ls -ltrsa
+  242  less goa_arabidopsis.gaf 
+  243  jobs
+  244  conda install -c bioconda/label/cf201901 goatools 
+  245  less goa_arabidopsis.gaf 
+  246  conda install -c bioconda/label/cf201901 goatools 
+  247  conda install -c bioconda/label/cf201901 goatools 
+  248  pip install goatools
+  249  conda install terminaltables
+  250  conda install terminaltables
+  251  ls
+  252  cd
+  253  cd GitHub/IntroBioinfo/
+  254  ls
+  255  cd data
+  256  ls
+  257  gunzip goa_arabidopsis.gaf.gz 
+  258  more goa_arabidopsis.gaf 
+  259  pip install goatools
+  260  pip install goatools==0.6.4
+  261  ls
+  262  vi goa_arabidopsis.gaf
+  263  gzip goa_arabidopsis.gaf
+  264  pip install goatools==0.6.4
+  265  conda install pygraphviz
+  266  pip install pygraphviz
+  267  conda install pygraphviz
+  268  conda install -c anaconda pygraphviz
+  269  brew install graphviz
+  270  sudo brew install graphviz
+  271  brew --help
+  272  brew
+  273  brew upgrade
+  274  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  275  bg
+  276  brew install graphviz
+  277  brew install graphviz
+  278  jobs
+  279  kill -9 %1 %2
+  280  ls
+  281  pwd
+  282  cd
+  283  cd GitHub/
+  284  jupyter notebook
+  285  bg
+  286  cd Introduction-to-Bioinformatics/
+  287  ls
+  288  cd theoretical/
+  289  ls
+  290  git status
+  291  cd T06\ Gene\ Lists/
+  292  ls
+  293  ls -a
+  294  git add
+  295  git add *
+  296  git status
+  297  git commit
+  298  git push
+  299  cd
+  300  ls
+  301  cd Library/
+  302  ls
+  303  cd Google/
+  304  ls
+  305  cd GoogleSoftwareUpdate/
+  306  ls
+  307  du
+  308  cd ..
+  309  cd ..
+  310  ls
+  311  cd Application\ S
+  312  cd Application\ Support/
+  313  ls
+  314  cd Google/
+  315  ls
+  316  du
+  317  ls
+  318  rm -rf DriveFS/
+  319  du
+  320  ls Drive/
+  321  du -h
+  322  ls
+  323  rm -rf Drive
+  324  ls
+  325  cd
+  326  ftp ftp://ftp.ebi.ac.uk   
+  327  ls
+  328  cd
+  329   cd Downloads/
+  330  ls
+  331  ls -ltrsa
+  332  vi goa_arabidopsis.gaf
+  333  clear
+  334  pwd
+  335  ls
+  336  ls -ltrsa
+  337  rm goa_arabidopsis.gaf
+  338  ls -ltrsa
+  339  ls goa_arabidopsis*
+  340  clear
+  341  ls goa_arabidopsis*
+  342  gunzip goa_arabidopsis.gaf.gz 
+  343  rm goa_arabidopsis.gaf.gz 
+  344  ls goa_arabidopsis*
+  345  ls goa_arabidopsis*
+  346  gzip goa_arabidopsis.gaf 
+  347  ls
+  348  ls goa_arabidopsis*
+  349  clear
+  350  ls goa_arabidopsis*
+  351  ls goa*
+  352  less goa_arabidopsis.gaf.gz 
+  353  gunzip goa_arabidopsis.gaf.gz 
+  354  ls goa*
+  355  wc goa_arabidopsis.gaf 
+  356  cat goa_arabidopsis.gaf 
+  357  clear
+  358  less goa_arabidopsis.gaf 
+  359  cd
+  360  cd GitHub/
+  361  cd Introduction-to-Bioinformatics/
+  362  ls
+  363  cd theoretical
+  364  jupyter notebook
+  365  cd Downloads/
+  366  ls -ltrsa
+  367  less sequence.fasta 
+  368  clustalo 
+  369  clustalo --help
+  370  ls -ltrsa
+  371  clustalo -i sequence.fasta -o sequence.aln
+  372  ls -ltrsa
+  373  cat sequence-2.fasta
+  374  clustalo -i sequence-2.fasta -o sequence.aln
+  375  clustalo -i sequence-2.fasta -o sequence.aln --force
+  376  la -ltrsa
+  377  ls -ltrsa
+  378  vi sequence.aln
+  379  cd GitHub/
+  380  ls
+  381  cd Introduction-to-Bioinformatics/
+  382  git status
+  383  git commit
+  384  git commit -a
+  385  git update
+  386  git pull
+  387  cd
+  388  cd ..
+  389  cd
+  390  ls
+  391  cd Downloads/
+  392  ls
+  393  gunzip SRR003265_2.filt.fastq.gz 
+  394  ls -ltrsa
+  395  ls -ltrsah
+  396  wc SRR003265_2.filt.fastq 
+  397  less SRR003265_2.filt.fastq 
+  398  less SRR003265_2.filt.fastq 
+  399  cd Downloads/
+  400  ls
+  401  ls -ltrsa
+  402  ls -ltrsa
+  403  r
+  404  r
+  405  cd
+  406  cd GitHub/
+  407  ls
+  408  cd Tools/
+  409  git status
+  410  fit add Working\ with\ files/Finding\ duplicate\ files.ipynb 
+  411  git add Working\ with\ files/Finding\ duplicate\ files.ipynb 
+  412  git commit
+  413  git push
+  414  git pull
+  415  git commiot
+  416  git commit
+  417  git push
+  418  jupyter notebook
+  419  bg
+  420  ls
+  421  vi README.md 
+  422  git commit
+  423  git add Teaching\ tools/
+  424  git status
+  425  git commit
+  426  git push
+  427  git push
+  428  git push
+  429  git push
+  430  git push
+  431  cd ..
+  432  rm -rf Tools
+  433  git clone https://github.com/CompBiochBiophLab/Tools.git
+  434  cd Tools
+  435  ls
+  436  vi README.md 
+  437  git commit
+  438  git add README.md 
+  439  git sttus
+  440  git status
+  441  git commit
+  442  git push
+  443  git push
+  444  git update
+  445  gin pull
+  446  git pull
+  447  ls
+  448  pwd
+  449  jobs
+  450  kill -9 %1
+  451  ls
+  452  jupyter notebook
+  453  bg
+  454  ls
+  455  pwd
+  456  cd Tools\ for\ teaching/
+  457  ls
+  458  ls
+  459  ls -ltrsa
+  460  ls -ltrsa ..
+  461  ls -ltrsa ../..
+  462  ls
+  463  sendmail fabrici.corbera@gmail.com <files.txt
+  464  ls
+  465  mail -s 'message subject' fabrici.corbera@gmail.com <<< 'testing message body'
+  466  mail -s 'message subject' fabrici.corbera@gmail.com -a jvilla@uic.cat <<< 'testing message body 2'
+  467  mail -s 'message subject' fabrici.corbera@gmail.com -aFrom:Admin\<admin@example.com\> <<< 'testing message body 2'
+  468  help mail
+  469  mail --help
+  470  mail -s 'message subject' jvilla@uic.cat <<< 'testing message body'
+  471  mail -s 'message subject' jvilla@uic.cat <<< 'testing message body http://www.google.com'
+  472  xattr -p user.drive.id '/Volumes/GoogleDrive/La meva unitat/Departament/Docència/Biocomputing Area/Interacció Bimolècules (3er)/2020-2021/test/parcial_bet134736.txt'
+  473  ;2D
+  474  ls
+  475  gnuplot
+  476  ls
+  477  history
+  478  mail -s 'message subject' jvilla@uic.cat <<< 'testing message body http://www.google.com'
+  479  ps -ef
+  480  ps -ef|grep cyt
+  481  kill -9 53039
+  482  cd GitHub/
+  483  jupyter notebook
+  484  cd Google\ Drive
+  485  cd La\ meva\ unitat/Departament/
+  486  cd Docència/Biocomputing\ Area/
+  487  ls
+  488  cd Intro\ Bioinfo\ \(2on\)/
+  489  ls
+  490  cd 2020-2021/
+  491  cd exams
+  492  ls
+  493  cp ../../../Interacció\ Bimolècules\ \(3er\)/2020-2021/test/test.csv .
+  494  vi test.csv 
+  495  history
+  496  xattr -p user.drive.id test.csv 
+  497  cd
+  498  cd iCloud/jvfcloud/DOCUMENTSJVF/CV_JVF/CVlatex/
+  499  ls
+  500  open cven.tex
+  501  cd Downloads/autodock_vina_1_1_2_mac_
+  502  cd Downloads/autodock_vina_1_1_2_mac_catalina_64bit/
+  503  ls
+  504  cd bin
+  505  ls
+  506  ./vina
+  507  ./vina
+  508  wget http://vina.scripps.edu/vina_tutorial.zip
+  509  wget https://static-bcrf.biochem.wisc.edu/tutorials/autodock/protein.pdbqt_.txt
+  510  https://static-bcrf.biochem.wisc.edu/tutorials/autodock/ligand.pdbqt_.txt
+  511  https://static-bcrf.biochem.wisc.edu/tutorials/autodock/
+  512  wget https://static-bcrf.biochem.wisc.edu/tutorials/autodock/ligand.pdbqt_.txt
+  513  ls
+  514  ls vina
+  515  unzip vina_tutorial.zip 
+  516  mv ligand.pdbqt_.txt vina_tutorial/ligand.pdbqt
+  517  mv protein.pdbqt_.txt vina_tutorial/protein.pdbqt
+  518  cd vina_tutorial
+  519  ls
+  520  cat > conf.txt <<EOF
+  521  ls
+  522  cat conf.txt 
+  523  pip -q install py3Dmol
+  524  ls
+  525  cd ..
+  526  ls
+  527  mv vina_tutorial ~/GitHub/Biomolecular-Interactions/practical/Docking/
+  528  cd ~/GitHub/Biomolecular-Interactions/practical/Docking/
+  529  ls
+  530  mv vina_tutorial/* .
+  531  ls
+  532  vina
+  533  cd -
+  534  cd -
+  535  ~/Downloads/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina
+  536  ~/Downloads/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina --config conf.txt --log log.txt
+  537  obabel -ipbqt protein.pdbqt -opdb protein.pdb
+  538  obabel -ipdbqt protein.pdbqt -opdb protein.pdb
+  539  obabel -ipdbqt all.pdbqt -opdb all.pdb
+  540  obabel -ipdbqt all.pdbqt -opdb all2.pdb
+  541  df
+  542  ls -ltrsa
+  543  obabel -ipdbqt all.pdbqt -opdb all2.pdb
+  544  obabel -ipdbqt all.pdbqt 
+  545  obabel -ipdbqt all.pdbqt -opdb all.pdb
+  546  ibabel
+  547  pipinstall ibabel
+  548  pip install ibabel
+  549  obabel -ipdbqt all.pdbqt -opdb all.pdb
+  550  ls
+  551  which obabel
+  552  ls
+  553  vi all1.pdb 
+  554  ls
+  555  ls
+  556  ls -l
+  557  history
+  558  cat conf.txt 
+  559  vi conf.txt 
+  560  ~/Downloads/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina --config conf.txt --log log.txt
+  561  history
+  562  vi AutodockTutorial.ipynb 
+  563  vi AutodockTutorial.ipynb 
+  564  vi AutodockTutorial.ipynb 
+  565  vi AutodockTutorial.ipynb 
+  566  vi AutodockTutorial.ipynb 
+  567  vi AutoDock.py.ipynb 
+  568  vi AutodockTutorial.ipynb 
+  569  tail AutoDock.py.ipynb 
+  570  tail AutodockTutorial.ipynb 
+  571  vi AutoDock.py.ipynb 
+  572  vi AutodockTutorial.ipynb 
+  573  vi AutodockTutorial.ipynb 
+  574  vi AutoDock.py.ipynb 
+  575  head Auto*
+  576  vi AutodockTutorial.ipynb 
+  577  sdiff AutoDock.py.ipynb AutodockTutorial.ipynb 
+  578  sdiff AutoDock.py.ipynb AutodockTutorial.ipynb |more
+  579  vi AutodockTutorial.ipynb 
+  580  vi AutodockTutorial.ipynb 
+  581  head AutoDock.py.ipynb 
+  582  tail AutoDock.py.ipynb 
+  583  vi AutoDock.py.ipynb 
+  584  car conf.txt 
+  585  cat conf.txt 
+  586  history
+  587  cd data
+  588  ls
+  589  vi R.pdbqt
+  590  grep ATOM R.pdbqt
+  591  grep ATOM R.pdbqt
+  592  grep ATOM R.pdbqt
+  593  grep ATOM R.pdbqt
+  594  grep ATOM R.pdbqt
+  595  grep ATOM R.pdbqt
+  596  grep ATOM R.pdbqt
+  597  grep ATOM R.pdbqt
+  598  ls
+  599  grep HETATM pdb1hvc.ent 
+  600  ls -ltrsa
+  601  ca l.pdb
+  602  cat l.pdb
+  603  ls -ltrsa
+  604  vi pdb1hvc.ent 
+  605  cd ..
+  606  grep HETATM {pdbfile} |grep -i HOH > {datadir}/L.pdb
+  607  grep HETATM data/pdb1hvc.ent |grep -i HOH > {datadir}/L.pdb
+  608  grep HETATM data/pdb1hvc.ent |grep -i HOH
+  609  grep HETATM data/pdb1hvc.ent 
+  610  man grep
+  611  grep HETATM data/pdb1hvc.ent |grep -v HOH
+  612  ls data
+  613  rm -rf data/l.pdb 
+  614  ls data
+  615  cat data/L.pdb 
+  616  prepare_ligand4.py
+  617  ls -ltrsa
+  618  chmod 755 prepare_*
+  619  ./prepare_ligand4.py 
+  620  python2.7 prepare_ligand4.py 
+  621  vi prepare_ligand4.py 
+  622  conda install -c bioconda mgltools
+  623  conda config --set report_errors true
+  624  vi conf.txt 
+  625  ls
+  626  history |grep vina
+  627  ~/Downloads/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina --config conf.txt --log log.txt
+  628  vi conf.txt 
+  629  vi data/receptor.pdbqt 
+  630  vi data/R.pdb
+  631  vi data/R.pdbqt
+  632  ls -ltrsa data
+  633  man obabel
+  634  obabel -i R.pdb -o R.pdbqt
+  635  obabel -ipdb R.pdb -opdbqt -O R.pdbqt
+  636  vi R.pdbqt 
+  637  ls
+  638  cd data
+  639  obabel -ipdb R.pdb -opdbqt -O R.pdbqt
+  640  vi R.pdbqt 
+  641  ls
+  642  cp ../conf.txt .
+  643  vi conf.txt 
+  644  ~/Downloads/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina --config conf.txt --log log.txt
+  645  grep ATOM R.pdbqt >temp; mv temp R.pdbqt
+  646  ~/Downloads/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina --config conf.txt --log log.txt
+  647  bg
+  648  cat ligand.pdbqt 
+  649  ls -ltrsa
+  650  cat log.txt 
+  651  ls
+  652  ls -ltrsa
+  653  jobs
+  654  ls -ltrsa
+  655  ls -ltrsa
+  656  vi all.pdbqt 
+  657  cp all.pdbqt all.pdb
+  658  vi R.pdb
+  659  vi ligand.pdbqt 
+  660  vi all.pdb
+  661  grep '(MODEL|ATOM)' all.pdb > tallat.pdb
+  662  vi tallat.pdb 
+  663  grep '(MODEL|ATOM)' all.pdb 
+  664  egrep '(MODEL|ATOM)' all.pdb 
+  665  egrep '(MODEL|ATOM)' all.pdb > tallat.pdb
+  666  vi all.pdb
+  667  egrep '(MODEL|ATOM|ENDMDL)' all.pdb > tallat.pdb
+  668  grep MODEL all.pdb
+  669  grep MODEL all.pdb|wc
+  670  ls
+  671  vi model5.pdb 
+  672  sdiff all.pdb model5.pdb |more
+  673     vi all.pdb
+  674  vi model5.pdb 
+  675  vi model5.pdb 
+  676  vi all.pdb
+  677  ATOM      1  C46 A79 A 800       5.520  -0.860  15.229  0.00  0.00      .000 C
+  678  ATOM      2  H68 A79 A 800       6.194  -0.029  15.017  0.00  0.00      .000 H
+  679  egrep '(MODEL|C46)' all.pdb
+  680  history |grep wc
+  681  ls
+  682  ls
+  683  man sdiff
+  684  egrep '(MODEL|C46)' all.pdb model?.pdb
+  685  cat model1.pdb
+  686  egrep '(MODEL|C46)' all.pdb model?.pdb
+  687  ls -ltrsa
+  688  vi receptor.pdbqt 
+  689  cp receptor.pdbqt receptor.pdb
+  690  head R.pdb receptor.pdb
+  691  vi receptor.pdb
+  692  vi R.pdb
+  693  ls -ltrsa
+  694  vi receptor.pdb
+  695  vi receptor.pdbqt 
+  696  hear R.pdb
+  697  head R.pdb
+  698  vi temp.pdbqt 
+  699  ls -ltrsa
+  700  vi receptor.pdbqt 
+  701  cp receptor.pdbqt receptor.pdb
+  702  ls
+  703  vi log.txt 
+  704  vi all.pdbqt 
+  705  vi model1.pdb 
+  706  vi all.pdb
+  707  vi R.pdb
+  708  vi receptor.pdb
+  709  ls -ltrsa
+  710  vi receptor.pdb
+  711  vi L.pdb 
+  712  history
+  713  history> h.txt
